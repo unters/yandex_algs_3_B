@@ -1,3 +1,6 @@
+/* Using uint8_t is not a good idea because of casting int to uint8_t.
+ * Probably, should use short instead.  */
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
